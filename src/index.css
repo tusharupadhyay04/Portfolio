@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 transition-colors duration-300 antialiased selection:bg-primary-light selection:text-white;
+  }
+  
+  .dark body {
+    @apply bg-dark-bg text-gray-100 selection:bg-accent selection:text-white;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20;
+  }
+  .dark .glass {
+    @apply bg-dark-surface/70 backdrop-blur-md border border-white/10;
+  }
+  
+  .glass-card {
+    @apply bg-white/50 backdrop-blur-sm border border-gray-200/50 shadow-[0_8px_30px_rgb(0,0,0,0.04)];
+  }
+  .dark .glass-card {
+    @apply bg-dark-surface/50 backdrop-blur-sm border border-white/5 shadow-[0_8px_30px_rgb(255,255,255,0.02)];
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-light to-accent;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
