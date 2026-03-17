@@ -42,7 +42,7 @@ const Hero = () => {
                 <ArrowRight className="ml-2 w-4 h-4" />
               </a>
               <a 
-                href="/FinalCVtusha2_compressed.pdf" 
+                href="FinalCVtusha2_compressed.pdf" 
                 download="Tushar_Upadhyay_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -71,7 +71,7 @@ const Hero = () => {
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary-light to-accent opacity-20 blur-2xl"></div>
               <div className="relative w-full h-full rounded-full border-4 border-white/50 dark:border-dark-surface/50 shadow-2xl overflow-hidden glass">
                 <img 
-                  src="/profile.jpg" 
+                  src="profile.png" 
                   alt="Tushar Upadhyay" 
                   className="w-full h-full object-cover"
                   onError={(e) => {

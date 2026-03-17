@@ -33,7 +33,7 @@ const Certificates = () => {
       link: "https://drive.google.com/file/d/1t54fntkaeeO4slIYCWRl2hN36Krzf5Ov/view?usp=sharing"
     },
     {
-      title: "C Programming ",
+      title: "C Programming",
       issuer: "Cipher School",
       date: "2024",
       description: "It's a foundational programming language used to develop efficient and high-performance software. It helps in understanding core programming concepts such as variables, control structures, functions, and memory management, which are essential for building strong programming skills.",
@@ -52,7 +52,7 @@ const Certificates = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold font-sans tracking-tight mb-4 text-gray-900 dark:text-white">
-            My <span className="text-gradient">Certificates</span> & Training
+            My <span className="text-gradient">Certificates</span> 
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary-light to-accent mx-auto rounded-full mb-6"></div>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
@@ -73,7 +73,7 @@ const Certificates = () => {
               <div className="w-16 h-16 bg-gradient-to-br from-primary-light/20 to-accent/20 dark:from-primary-light/10 dark:to-accent/10 rounded-full flex items-center justify-center text-primary-dark dark:text-primary-light mb-6">
                 <Award size={32} />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{cert.title}</h3>
+               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{cert.title}</h3>
               <p className="text-primary-dark dark:text-primary-light font-medium mb-4">{cert.issuer} • {cert.date}</p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed min-h-[80px] mb-6">
                 {cert.description}
