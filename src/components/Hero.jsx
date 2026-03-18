@@ -1,6 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, ArrowRight } from 'lucide-react';
+import profileImg from '../assets/profile.png';
+import resumePdf from '../assets/FinalCVtusha2_compressed.pdf';
+
 
 const Hero = () => {
   return (
@@ -42,8 +45,9 @@ const Hero = () => {
                 <ArrowRight className="ml-2 w-4 h-4" />
               </a>
               <a 
-                href="src/assets/FinalCVtusha2_compressed.pdf" 
+                href={resumePdf} 
                 download="Tushar_Upadhyay_Resume.pdf"
+
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 rounded-full bg-primary text-white font-medium hover:bg-primary-dark transition-colors shadow-lg shadow-primary/30"
@@ -71,7 +75,7 @@ const Hero = () => {
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary-light to-accent opacity-20 blur-2xl"></div>
               <div className="relative w-full h-full rounded-full border-4 border-white/50 dark:border-dark-surface/50 shadow-2xl overflow-hidden glass">
                 <img 
-                  src="src/assets/profile.png" 
+                  src={profileImg} 
                   alt="Tushar Upadhyay" 
                   className="w-full h-full object-cover"
                   onError={(e) => {
