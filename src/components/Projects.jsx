@@ -106,8 +106,12 @@ const Projects = () => {
             <motion.div 
               key={idx}
               variants={cardVariants}
-              whileHover={{ y: -10 }}
-              className="glass-card rounded-2xl overflow-hidden flex flex-col h-full group transition-all duration-300 hover:shadow-2xl dark:hover:shadow-primary-dark/20"
+              whileHover={{ 
+                y: -12, 
+                scale: 1.02,
+                transition: { type: "spring", stiffness: 400, damping: 25 }
+              }}
+              className="glass-card rounded-2xl overflow-hidden flex flex-col h-full group transition-all duration-300 hover:shadow-2xl dark:hover:shadow-primary-dark/30"
             >
                {/* Accent line on top */}
               <div className="h-1.5 w-full bg-gradient-to-r from-primary-light to-accent"></div>

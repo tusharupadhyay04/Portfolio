@@ -73,9 +73,14 @@ const Certificates = () => {
               key={index}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ 
+                y: -12, 
+                scale: 1.02,
+                transition: { type: "spring", stiffness: 400, damping: 25 }
+              }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="glass-card rounded-2xl p-8 relative overflow-hidden flex flex-col items-center text-center"
+              className="glass-card rounded-2xl p-8 relative overflow-hidden flex flex-col items-center text-center transition-all duration-300 hover:shadow-2xl dark:hover:shadow-primary-dark/30"
             >
               <div className="w-16 h-16 bg-gradient-to-br from-primary-light/20 to-accent/20 dark:from-primary-light/10 dark:to-accent/10 rounded-full flex items-center justify-center text-primary-dark dark:text-primary-light mb-6">
                 <Award size={32} />
