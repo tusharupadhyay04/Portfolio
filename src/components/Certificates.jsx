@@ -5,6 +5,13 @@ import { Award, ExternalLink } from 'lucide-react';
 const Certificates = () => {
   const certificates = [
     {
+      title: "Oracle Certified Foundation Associate",
+      issuer: "Oracle",
+      date: "2026",
+      description: "Demonstrating a strong understanding of core programming, databases, and cloud fundamentals. This certification validates knowledge of basic Java, SQL, and cloud concepts, along with problem-solving and software development fundamentals.",
+      link: "https://drive.google.com/file/d/1b9BXOHi1RPPB1SHL4mGOoLR70tBqyl9F/view?usp=sharing" // Replace with actual image URL or PDF link
+    },
+    {
       title: "Mastering Data Structures and Algorithms",
       issuer: "Board Infinity",
       date: "2025",
