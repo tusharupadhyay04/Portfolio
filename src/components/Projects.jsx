@@ -4,6 +4,18 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
+    title: "AI Resume Aanlyzer",
+    date: "Apr 2026",
+    description: "Developed an AI-powered resume analyzer that reviews resumes and provides smart suggestions to improve job readiness and ATS compatibility. Designed an easy workflow for resume upload, analysis, and instant feedback.",
+    highlights: [
+      "Extracts skills and keywords to evaluate resume quality.",
+      "Provides suggestions to improve content and formatting.",
+      "Ensures secure resume upload and analysis process."
+    ],
+    tech: ["HTML", "Tailwind CSS", "JavaScript", "React.js", "MongoDB","Node.js", "Express.js", "Gemini API"],
+    githubUrl: "https://github.com/tusharupadhyay04/AIResumeAnalyzer", 
+  },
+  {
     title: "Intellectual Property Facilitation Center System",
     date: "Dec 2025",
     description: "Built a centralized IP management system to manage patents, copyrights, trademarks, and design registrations efficiently. Designed a structured workflow for documentation, verification, and approvals.",
@@ -13,6 +25,18 @@ const projects = [
     ],
     tech: ["HTML", "Tailwind CSS", "JavaScript", "React", "MongoDB"],
     githubUrl: "https://github.com/tusharupadhyay04/IPFC", // Replace this with your actual GitHub link
+  },
+  {
+    title: "Gamified Habit Tracker",
+    date: "Mar 2025",
+    description: "Built a gamified habit tracker that helps users build daily habits using rewards, streaks, and progress tracking. Designed a simple workflow for adding habits, tracking completion, and visualizing progress.",
+    highlights: [
+      "Reward and streak system to keep users motivated.",
+      "Progress tracking with clear and interactive dashboard.",
+      "User-friendly interface for managing daily habits easily."
+    ],
+    tech: ["HTML", "Tailwind CSS", "JavaScript", "PHP", "MySQL"],
+    githubUrl: "https://github.com/tusharupadhyay04/trackify-70-build", 
   },
   {
     title: "Binary Tree Traversal Visualizer",
