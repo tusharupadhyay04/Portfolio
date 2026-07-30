@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, ArrowRight } from 'lucide-react';
 import profileImg from '../assets/profile.png';
-import resumePdf from '../assets/FinalCVtusha2_compressed.pdf';
+
 
 
 const Hero = () => {
@@ -45,7 +45,7 @@ const Hero = () => {
                 <ArrowRight className="ml-2 w-4 h-4" />
               </a>
               <a 
-                href={resumePdf} 
+                href="/Tushar_Upadhyay_Resume.pdf" 
                 download="Tushar_Upadhyay_Resume.pdf"
 
                 target="_blank"
