@@ -57,7 +57,7 @@ const Education = () => {
                     Lovely Professional University, Punjab
                   </h4>
                   <p className="text-accent font-bold mb-4">
-                    CGPA: 7.55
+                    CGPA: 7.61
                   </p>
                   
                 </div>
