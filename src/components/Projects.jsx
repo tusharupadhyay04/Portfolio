@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 const projects = [
   {
-    title: "AI Resume Aanlyzer",
+    title: "AI Resume Analyzer",
     date: "Apr 2026",
     description: "Developed an AI-powered resume analyzer that reviews resumes and provides smart suggestions to improve job readiness and ATS compatibility. Designed an easy workflow for resume upload, analysis, and instant feedback.",
     highlights: [
@@ -12,8 +12,19 @@ const projects = [
       "Provides suggestions to improve content and formatting.",
       "Ensures secure resume upload and analysis process."
     ],
-    tech: ["HTML", "Tailwind CSS", "JavaScript", "React.js", "MongoDB","Node.js", "Express.js", "Gemini API"],
+    tech: ["HTML", "Tailwind CSS", "JavaScript", "React.js", "MongoDB", "Node.js", "Express.js", "Gemini API"],
     githubUrl: "https://github.com/tusharupadhyay04/AIResumeAnalyzer", 
+  },
+  {
+    title: "TicketFlix – Online Ticket Booking System",
+    date: "Apr 2026",
+    description: "Engineered a full-stack ticket booking platform that enables users to browse events, reserve seats, and manage bookings through an intuitive and responsive interface.",
+    highlights: [
+      "Executed secure user authentication, real-time seat availability updates, and booking management to ensure a seamless ticket reservation experience.",
+      "Integrated RESTful APIs and database operations for efficient event management, ticket booking, and user data handling while maintaining application performance."
+    ],
+    tech: ["React.js", "Node.js", "Express.js", "MySQL", "JavaScript", "HTML5", "Tailwind CSS"],
+    githubUrl: "https://github.com/tusharupadhyay04/TicketFlix", 
   },
   {
     title: "Intellectual Property Facilitation Center System",
@@ -24,7 +35,7 @@ const projects = [
       "Secure tracking and record management features."
     ],
     tech: ["HTML", "Tailwind CSS", "JavaScript", "React", "MongoDB"],
-    githubUrl: "https://github.com/tusharupadhyay04/IPFC", // Replace this with your actual GitHub link
+    githubUrl: "https://github.com/tusharupadhyay04/IPFC", 
   },
   {
     title: "Gamified Habit Tracker",
@@ -47,7 +58,7 @@ const projects = [
       "Clear visualization of Data Structures."
     ],
     tech: ["HTML", "Tailwind CSS", "JavaScript", "C++", "DSA"],
-    githubUrl: "https://github.com/tusharupadhyay04/MinorProject-Binary-Tree-Traversal-Visualizer-", // Replace this with your actual GitHub link
+    githubUrl: "https://github.com/tusharupadhyay04/MinorProject-Binary-Tree-Traversal-Visualizer-", 
   },
   {
     title: "Huffman Encoder / Decoder",
@@ -58,7 +69,7 @@ const projects = [
       "Optimized file size effectively."
     ],
     tech: ["HTML", "Tailwind CSS", "JavaScript", "C++", "DSA"],
-    githubUrl: "https://github.com/tusharupadhyay04/MajorProject-HuffmanEncodedDecoded", // Replace this with your actual GitHub link
+    githubUrl: "https://github.com/tusharupadhyay04/MajorProject-HuffmanEncodedDecoded", 
   }
 ];
 
