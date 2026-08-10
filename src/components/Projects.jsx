@@ -5,7 +5,7 @@ import { Github } from 'lucide-react';
 const projects = [
   {
     title: "AI Resume Analyzer",
-    date: "Apr 2026",
+    date: "May 2026",
     description: "Developed an AI-powered resume analyzer that reviews resumes and provides smart suggestions to improve job readiness and ATS compatibility. Designed an easy workflow for resume upload, analysis, and instant feedback.",
     highlights: [
       "Extracts skills and keywords to evaluate resume quality.",
