@@ -12,11 +12,11 @@ const Certificates = () => {
       link: "https://drive.google.com/file/d/1XnE-W2OFCrxww2vP72Mt-xm8zl_AhQu5/view"
     },
     {
-      title: "Oracle Certified Foundation Associate",
+      title: "Oracle Database Certified Foundation Associate",
       issuer: "Oracle",
-      date: "2026",
-      description: "Demonstrating a strong understanding of core programming, databases, and cloud fundamentals. This certification validates knowledge of basic Java, SQL, and cloud concepts, along with problem-solving and software development fundamentals.",
-      link: "https://drive.google.com/file/d/1b9BXOHi1RPPB1SHL4mGOoLR70tBqyl9F/view?usp=sharing" // Replace with actual image URL or PDF link
+      date: "May 2026",
+      description: "Demonstrating a strong understanding of core programming, databases, and cloud fundamentals. This certification validates knowledge of SQL, relational database management, and software development fundamentals.",
+      link: "https://drive.google.com/file/d/1a5PmwRXNwDoJ6H5S4HDG8XJreaeIf4O4/view?usp=sharing"
     },
     {
       title: "Mastering Data Structures and Algorithms",
