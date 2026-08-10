@@ -12,10 +12,17 @@ const Certificates = () => {
       link: "https://drive.google.com/file/d/1XnE-W2OFCrxww2vP72Mt-xm8zl_AhQu5/view"
     },
     {
+      title: "Oracle Cloud Infrastructure Foundations Associate",
+      issuer: "Oracle",
+      date: "2026",
+      description: "Demonstrates a strong understanding of cloud architecture, core OCI services, security, and cloud deployment concepts.",
+      link: "https://drive.google.com/file/d/1b9BXOHi1RPPB1SHL4mGOoLR70tBqyl9F/view?usp=sharing"
+    },
+    {
       title: "Oracle Database Certified Foundation Associate",
       issuer: "Oracle",
       date: "May 2026",
-      description: "Demonstrating a strong understanding of core programming, databases, and cloud fundamentals. This certification validates knowledge of SQL, relational database management, and software development fundamentals.",
+      description: "Validates fundamental knowledge of relational database management, SQL queries, and Oracle database architecture.",
       link: "https://drive.google.com/file/d/1a5PmwRXNwDoJ6H5S4HDG8XJreaeIf4O4/view?usp=sharing"
     },
     {
