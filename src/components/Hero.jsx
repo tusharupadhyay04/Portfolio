@@ -45,7 +45,7 @@ const Hero = () => {
                 <ArrowRight className="ml-2 w-4 h-4" />
               </a>
               <a 
-                href="/Tushar_Upadhyay_Resume.pdf" 
+                href="/generalCVnewUpdate.pdf" 
                 download="Tushar_Upadhyay_Resume.pdf"
 
                 target="_blank"
