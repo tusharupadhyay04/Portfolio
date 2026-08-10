@@ -5,6 +5,13 @@ import { Award, ExternalLink } from 'lucide-react';
 const Certificates = () => {
   const certificates = [
     {
+      title: "Generative AI – Skill Development Program",
+      issuer: "NASSCOM",
+      date: "Feb 2026",
+      description: "Acquired comprehensive knowledge and hands-on skills in Generative AI concepts, applications, and framework utilization as part of NASSCOM's skill development initiative.",
+      link: "https://drive.google.com/file/d/1XnE-W2OFCrxww2vP72Mt-xm8zl_AhQu5/view"
+    },
+    {
       title: "Oracle Certified Foundation Associate",
       issuer: "Oracle",
       date: "2026",
